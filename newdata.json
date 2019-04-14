@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "title": "TiKu Sensor Reader",
+	"value": 0
+  },
+  {
+    "id": 2,
+	"title": "date",
+    "value": "2019-4-13 11:19:25"
+  },
+  {
+    "id": 3,
+	"title": "tempOutside",
+    "value": 6.02
+  },
+  {
+    "id": 4,
+	"title": "minTempTime",
+    "value": "6:59:2"
+  },
+  {
+    "id": 5,
+	"title": "minTempVal",
+    "value": -0.94
+  },
+  {
+    "id": 6,
+    "title": "tempOutMast",
+    "value": 9.80
+  },
+  {
+    "id": 7,
+    "title": "tempInside",
+    "value": 18.06
+  },
+  {
+    "id": 8,
+    "title": "humidityIn",
+    "value": 50.2
+  },
+  {
+    "id": 9,
+    "title": "wifiTemp",
+    "value": 18.06
+  },
+  {
+    "id": 10,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 11,
+    "title": "humidityDew",
+    "value": 3.644
+  },
+  {
+    "id": 12,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 13,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 14,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 15,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 16,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 17,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 18,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 19,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 20,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 21,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 22,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 23,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 24,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 25,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 26,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 27,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 28,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 29,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 30,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 31,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 32,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 33,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 34,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 35,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 36,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 37,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 38,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 39,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 40,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 41,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 42,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 43,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 44,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 45,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 46,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 10,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 47,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 48,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 49,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 50,
+    "title": "wifiBat",
+    "value": 3.644
+  }
+]
