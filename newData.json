@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "title": "TiKu Sensor Reader",
+	  "value": 0
+  },
+  {
+    "id": 2,
+	  "title": "date",
+    "value": "2019-4-13 11:19:25"
+  },
+  {
+    "id": 3,
+	  "title": "tempOutside",
+    "value": 6.02
+  },
+  {
+    "id": 4,
+	  "title": "minTempTime",
+    "value": "6:59:2"
+  },
+  {
+    "id": 5,
+	  "title": "minTempVal",
+    "value": -0.94
+  },
+  {
+    "id": 6,
+    "title": "maxTempTime",
+    "value": 9.80
+  },
+  {
+    "id": 7,
+    "title": "maxTempVal",
+    "value": 9.80
+  },
+  {
+    "id": 8,
+    "title": "tempOutMast",
+    "value": 9.80
+  },
+  {
+    "id": 9,
+    "title": "tempInside",
+    "value": 18.06
+  },
+  {
+    "id": 10,
+    "title": "humidityIn",
+    "value": 50.2
+  },
+  {
+    "id": 11,
+    "title": "wifiTemp",
+    "value": 18.06
+  },
+  {
+    "id": 12,
+    "title": "wifiBat",
+    "value": 3.644
+  },
+  {
+    "id": 13,
+    "title": "humidityOut",
+    "value": 9.80
+  },
+  {
+    "id": 14,
+    "title": "humidityDew",
+    "value": 3.644
+  },
+  {
+    "id": 15,
+    "title": "tempHumSensOut",
+    "value": 3.644
+  },
+  {
+    "id": 16,
+    "title": "avgAirPressure",
+    "value": 3.644
+  },
+  {
+    "id": 17,
+    "title": "avgAirPressureOverTime",
+    "value": 3.644
+  },
+  {
+    "id": 18,
+    "title": "airPressureTendency",
+    "value": 3.644
+  },
+  {
+    "id": 19,
+    "title": "lightLevelOut",
+    "value": 3.644
+  },
+  {
+    "id": 20,
+    "title": "lightLevelIn",
+    "value": 3.644
+  },
+  {
+    "id": 21,
+    "title": "windSpeed",
+    "value": 3.644
+  },
+  {
+    "id": 22,
+    "title": "windMin15s",
+    "value": 3.644
+  },
+  {
+    "id": 23,
+    "title": "windMax15s",
+    "value": 3.644
+  },
+  {
+    "id": 24,
+    "title": "windMax15m",
+    "value": 3.644
+  },
+  {
+    "id": 25,
+    "title": "windVane15s",
+    "value": 3.644
+  },
+  {
+    "id": 26,
+    "title": "windDir15s",
+    "value": 3.644
+  },
+  {
+    "id": 27,
+    "title": "windVane15m",
+    "value": 9.80
+  },
+  {
+    "id": 28,
+    "title": "windDir15m",
+    "value": 3.644
+  },
+  {
+    "id": 29,
+    "title": "windSpeedAvg",
+    "value": 3.644
+  },
+  {
+    "id": 30,
+    "title": "windSpeed15m",
+    "value": 3.644
+  },
+  {
+    "id": 31,
+    "title": "windSpeed12h",
+    "value": 3.644
+  },
+  {
+    "id": 32,
+    "title": "rain15s",
+    "value": 3.644
+  },
+  {
+    "id": 33,
+    "title": "rain3h",
+    "value": 3.644
+  },
+  {
+    "id": 34,
+    "title": "rain24h",
+    "value": 3.644
+  },
+  {
+    "id": 35,
+    "title": "mainsFrequency",
+    "value": 3.644
+  },
+  {
+    "id": 36,
+    "title": "mainsVoltage",
+    "value": 3.644
+  },
+  {
+    "id": 37,
+    "title": "solarCurrent",
+    "value": 3.644
+  },
+  {
+    "id": 38,
+    "title": "solarPowerFactor",
+    "value": 3.644
+  },
+  {
+    "id": 39,
+    "title": "luxSmallPanel",
+    "value": 3.644
+  },
+  {
+    "id": 40,
+    "title": "dawnMoment",
+    "value": 3.644
+  },
+  {
+    "id": 41,
+    "title": "duskMoment",
+    "value": 3.644
+  },
+  {
+    "id": 42,
+    "title": "solarGenerated12h",
+    "value": 3.644
+  },
+  {
+    "id": 43,
+    "title": "waterUsage24h",
+    "value": 3.644
+  },
+  {
+    "id": 44,
+    "title": "gasUsage24h",
+    "value": 3.644
+  },
+  {
+    "id": 45,
+    "title": "avarageslast15s",
+    "value": 3.644
+  },
+  {
+    "id": 46,
+    "title": "unoMillis",
+    "value": 3.644
+  },
+  {
+    "id": 47,
+    "title": "unoOntime",
+    "value": 3.644
+  },
+  {
+    "id": 48,
+    "title": "megaMillis",
+    "value": 3.644
+  },
+  {
+    "id": 49,
+    "title": "megaOntime",
+    "value": 3.644
+  },
+  {
+    "id": 50,
+    "title": "megaLocalTime",
+    "value": 30.5
+  }
+]
