@@ -2,52 +2,52 @@
   {
     "id": 1,
     "title": "TiKu Sensor Reader",
-	  "value": 0
+    "value": 0
   },
   {
     "id": 2,
-	  "title": "date",
-    "value": "2019-4-13 11:19:25"
+    "title": "date",
+    "value": "2019-4-13 11:19:45"
   },
   {
     "id": 3,
-	  "title": "tempOutside",
-    "value": 6.02
+    "title": "tempOutside",
+    "value": 8.04
   },
   {
     "id": 4,
-	  "title": "minTempTime",
+    "title": "minTempTime",
     "value": "6:59:2"
   },
   {
     "id": 5,
-	  "title": "minTempVal",
+    "title": "minTempVal",
     "value": -0.94
   },
   {
     "id": 6,
     "title": "maxTempTime",
-    "value": 9.80
+    "value": 11:19:45
   },
   {
     "id": 7,
     "title": "maxTempVal",
-    "value": 9.80
+    "value": 8.04
   },
   {
     "id": 8,
     "title": "tempOutMast",
-    "value": 9.80
+    "value": 8.00
   },
   {
     "id": 9,
     "title": "tempInside",
-    "value": 18.06
+    "value": 18.00
   },
   {
     "id": 10,
     "title": "humidityIn",
-    "value": 50.2
+    "value": 51.2
   },
   {
     "id": 11,
@@ -57,7 +57,7 @@
   {
     "id": 12,
     "title": "wifiBat",
-    "value": 3.644
+    "value": 3.794
   },
   {
     "id": 13,
@@ -67,186 +67,186 @@
   {
     "id": 14,
     "title": "humidityDew",
-    "value": 3.644
+    "value": 21.4
   },
   {
     "id": 15,
     "title": "tempHumSensOut",
-    "value": 3.644
+    "value": 7.5
   },
   {
     "id": 16,
     "title": "avgAirPressure",
-    "value": 3.644
+    "value": 1021.5
   },
   {
     "id": 17,
     "title": "avgAirPressureOverTime",
-    "value": 3.644
+    "value": 0.3
   },
   {
     "id": 18,
     "title": "airPressureTendency",
-    "value": 3.644
+    "value": 0.3
   },
   {
     "id": 19,
     "title": "lightLevelOut",
-    "value": 3.644
+    "value": 28138.0
   },
   {
     "id": 20,
     "title": "lightLevelIn",
-    "value": 3.644
+    "value": 1023
   },
   {
     "id": 21,
     "title": "windSpeed",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 22,
     "title": "windMin15s",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 23,
     "title": "windMax15s",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 24,
     "title": "windMax15m",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 25,
     "title": "windVane15s",
-    "value": 3.644
+    "value": 7.2
   },
   {
     "id": 26,
     "title": "windDir15s",
-    "value": 3.644
+    "value": "ZO"
   },
   {
     "id": 27,
     "title": "windVane15m",
-    "value": 9.80
+    "value": 0.0
   },
   {
     "id": 28,
     "title": "windDir15m",
-    "value": 3.644
+    "value": "O"
   },
   {
     "id": 29,
     "title": "windSpeedAvg",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 30,
     "title": "windSpeed15m",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 31,
     "title": "windSpeed12h",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 32,
     "title": "rain15s",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 33,
     "title": "rain3h",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 34,
     "title": "rain24h",
-    "value": 3.644
+    "value": 0.0
   },
   {
     "id": 35,
     "title": "mainsFrequency",
-    "value": 3.644
+    "value": 50.018
   },
   {
     "id": 36,
     "title": "mainsVoltage",
-    "value": 3.644
+    "value": 222.08
   },
   {
     "id": 37,
     "title": "solarCurrent",
-    "value": 3.644
+    "value": 17.357
   },
   {
     "id": 38,
     "title": "solarPowerFactor",
-    "value": 3.644
+    "value": -0.568
   },
   {
     "id": 39,
     "title": "luxSmallPanel",
-    "value": 3.644
+    "value": 50667.5
   },
   {
     "id": 40,
     "title": "dawnMoment",
-    "value": 3.644
+    "value": "6:19:31"
   },
   {
     "id": 41,
     "title": "duskMoment",
-    "value": 3.644
+    "value": "21:3:47"
   },
   {
     "id": 42,
     "title": "solarGenerated12h",
-    "value": 3.644
+    "value": 10696
   },
   {
     "id": 43,
     "title": "waterUsage24h",
-    "value": 3.644
+    "value": 441.0
   },
   {
     "id": 44,
     "title": "gasUsage24h",
-    "value": 3.644
+    "value": 1.238
   },
   {
     "id": 45,
     "title": "avarageslast15s",
-    "value": 3.644
+    "value": 16
   },
   {
     "id": 46,
     "title": "unoMillis",
-    "value": 3.644
+    "value": 1217047155
   },
   {
     "id": 47,
     "title": "unoOntime",
-    "value": 3.644
+    "value": 14.1
   },
   {
     "id": 48,
     "title": "megaMillis",
-    "value": 3.644
+    "value": 1216344601
   },
   {
     "id": 49,
     "title": "megaOntime",
-    "value": 3.644
+    "value": 14.1
   },
   {
     "id": 50,
     "title": "megaLocalTime",
-    "value": 30.5
+    "value": "14:14:12"
   }
 ]
