@@ -1,252 +1,247 @@
 [
-  {
-    "id": 1,
-    "title": "TiKu Sensor Reader",
-    "value": 0
-  },
-  {
-    "id": 2,
-    "title": "date",
-    "value": "2019-4-13 11:19:45"
-  },
-  {
-    "id": 3,
-    "title": "tempOutside",
-    "value": 8.04
-  },
-  {
-    "id": 4,
-    "title": "minTempTime",
-    "value": "6:59:2"
-  },
-  {
-    "id": 5,
-    "title": "minTempVal",
-    "value": -0.94
-  },
-  {
-    "id": 6,
-    "title": "maxTempTime",
-    "value": "11:19:45"
-  },
-  {
-    "id": 7,
-    "title": "maxTempVal",
-    "value": 8.04
-  },
-  {
-    "id": 8,
-    "title": "tempOutMast",
-    "value": 8.00
-  },
-  {
-    "id": 9,
-    "title": "tempInside",
-    "value": 18.00
-  },
-  {
-    "id": 10,
-    "title": "humidityIn",
-    "value": 51.2
-  },
-  {
-    "id": 11,
-    "title": "wifiTemp",
-    "value": 18.06
-  },
-  {
-    "id": 12,
-    "title": "wifiBat",
-    "value": 3.794
-  },
-  {
-    "id": 13,
-    "title": "humidityOut",
-    "value": 9.80
-  },
-  {
-    "id": 14,
-    "title": "humidityDew",
-    "value": 21.4
-  },
-  {
-    "id": 15,
-    "title": "tempHumSensOut",
-    "value": 7.5
-  },
-  {
-    "id": 16,
-    "title": "avgAirPressure",
-    "value": 1021.5
-  },
-  {
-    "id": 17,
-    "title": "avgAirPressureOverTime",
-    "value": 0.3
-  },
-  {
-    "id": 18,
-    "title": "airPressureTendency",
-    "value": 0.3
-  },
-  {
-    "id": 19,
-    "title": "lightLevelOut",
-    "value": 28138.0
-  },
-  {
-    "id": 20,
-    "title": "lightLevelIn",
-    "value": 1023
-  },
-  {
-    "id": 21,
-    "title": "windSpeed",
-    "value": 0.0
-  },
-  {
-    "id": 22,
-    "title": "windMin15s",
-    "value": 0.0
-  },
-  {
-    "id": 23,
-    "title": "windMax15s",
-    "value": 0.0
-  },
-  {
-    "id": 24,
-    "title": "windMax15m",
-    "value": 0.0
-  },
-  {
-    "id": 25,
-    "title": "windVane15s",
-    "value": 7.2
-  },
-  {
-    "id": 26,
-    "title": "windDir15s",
-    "value": "ZO"
-  },
-  {
-    "id": 27,
-    "title": "windVane15m",
-    "value": 0.0
-  },
-  {
-    "id": 28,
-    "title": "windDir15m",
-    "value": "O"
-  },
-  {
-    "id": 29,
-    "title": "windSpeedAvg",
-    "value": 0.0
-  },
-  {
-    "id": 30,
-    "title": "windSpeed15m",
-    "value": 0.0
-  },
-  {
-    "id": 31,
-    "title": "windSpeed12h",
-    "value": 0.0
-  },
-  {
-    "id": 32,
-    "title": "rain15s",
-    "value": 0.0
-  },
-  {
-    "id": 33,
-    "title": "rain3h",
-    "value": 0.0
-  },
-  {
-    "id": 34,
-    "title": "rain24h",
-    "value": 0.0
-  },
-  {
-    "id": 35,
-    "title": "mainsFrequency",
-    "value": 50.018
-  },
-  {
-    "id": 36,
-    "title": "mainsVoltage",
-    "value": 222.08
-  },
-  {
-    "id": 37,
-    "title": "solarCurrent",
-    "value": 17.357
-  },
-  {
-    "id": 38,
-    "title": "solarPowerFactor",
-    "value": -0.568
-  },
-  {
-    "id": 39,
-    "title": "luxSmallPanel",
-    "value": 50667.5
-  },
-  {
-    "id": 40,
-    "title": "dawnMoment",
-    "value": "6:19:31"
-  },
-  {
-    "id": 41,
-    "title": "duskMoment",
-    "value": "21:3:47"
-  },
-  {
-    "id": 42,
-    "title": "solarGenerated12h",
-    "value": 10696
-  },
-  {
-    "id": 43,
-    "title": "waterUsage24h",
-    "value": 441.0
-  },
-  {
-    "id": 44,
-    "title": "gasUsage24h",
-    "value": 1.238
-  },
-  {
-    "id": 45,
-    "title": "avarageslast15s",
-    "value": 16
-  },
-  {
-    "id": 46,
-    "title": "unoMillis",
-    "value": 1217047155
-  },
-  {
-    "id": 47,
-    "title": "unoOntime",
-    "value": 14.1
-  },
-  {
-    "id": 48,
-    "title": "megaMillis",
-    "value": 1216344601
-  },
-  {
-    "id": 49,
-    "title": "megaOntime",
-    "value": 14.1
-  },
-  {
-    "id": 50,
-    "title": "megaLocalTime",
-    "value": "14:14:12"
-  }
+{
+"id": 2 ,
+"title": " DateTime ", 
+"value": " 2019-4-15 8:21:54" 
+},
+{
+"id": 3 ,
+"title": " tempOutside ", 
+"value": 7.21
+},
+{
+"id": 4 ,
+"title": " minTempTime ", 
+"value": "Ś:1:16" 
+},
+{
+"id": 5 ,
+"title": " minTempVal ", 
+"value": 2.46 
+},
+{
+"id": 6 ,
+"title": " maxTempTime ", 
+"value": "Ŝ:20:32" 
+},
+{
+"id": 7 ,
+"title": " maxTempVal ", 
+"value": 7.25 
+},
+{
+"id": 8 ,
+"title": " tempOutMast ", 
+"value": 7.35 
+},
+{
+"id": 9 ,
+"title": " tempInside ", 
+"value": 18.20 
+},
+{
+"id": 10 ,
+"title": " humidityIn ", 
+"value": 51.0 
+},
+{
+"id": 11 ,
+"title": " wifiTemp ", 
+"value": 17.57 
+},
+{
+"id": 12 ,
+"title": " wifiBat ", 
+"value": 3.753 
+},
+{
+"id": 13 ,
+"title": " humidityOut ", 
+"value": 94.8 
+},
+{
+"id": 14 ,
+"title": " humidityDew ", 
+"value": 14.5 
+},
+{
+"id": 15 ,
+"title": " tempHumSensOut ", 
+"value": 13.41 
+},
+{
+"id": 16 ,
+"title": " avgAirPressure ", 
+"value": 1021.1 
+},
+{
+"id": 17 ,
+"title": " airPressureDiffd ", 
+"value": -0.25 
+},
+{
+"id": 18 ,
+"title": " airPressureTendency ", 
+"value": -0.25
+},
+{
+"id": 19 ,
+"title": " lightLevelOut ", 
+"value": 2708.3 
+},
+{
+"id": 20 ,
+"title": " lightLevelIn ", 
+"value": 1024 
+},
+{
+"id": 21 ,
+"title": " windSpeed15s ", 
+"value": 0.0 
+},
+{
+"id": 22 ,
+"title": " windSpeed15m ", 
+"value": 0.0 
+},
+{
+"id": 23 ,
+"title": " windMax15s ", 
+"value": 0.0 
+},
+{
+"id": 24 ,
+"title": " windMax5m ", 
+"value": 0 
+},
+{
+"id": 25 ,
+"title": " windVane15s ", 
+"value": 7.32 
+},
+{
+"id": 26 ,
+"title": " windDir15s ", 
+"value": "Z" 
+},
+{
+"id": 27 ,
+"title": " windVane15min ", 
+"value": 0.00 
+},
+{
+"id": 28 ,
+"title": " windDir15min ", 
+"value": "ZO" 
+},
+{
+"id": 29 ,
+"title": " windSpeedAvg ", 
+"value": 0.0 
+},
+{
+"id": 30 ,
+"title": " windSpeed15m ", 
+"value": 0.0 
+},
+{
+"id": 31 ,
+"title": " windSpeed12h ", 
+"value": 0.0 
+},
+{
+"id": 32 ,
+"title": " rain15s ", 
+"value": 0.0 
+},
+{
+"id": 33 ,
+"title": " rain3h ", 
+"value": 0.0 
+},
+{
+"id": 34 ,
+"title": " rain24h ", 
+"value": 0.0 
+},
+{
+"id": 35 ,
+"title": " mainsFrequency: ", 
+"value": 50.010 
+},
+{
+"id": 36 ,
+"title": " mainsVoltage ", 
+"value": 205.57 
+},
+{
+"id": 37 ,
+"title": " solarCurrent ", 
+"value": 3.179 
+},
+{
+"id": 38 ,
+"title": " solarPowerFactor ", 
+"value": 0.115 
+},
+{
+"id": 39 ,
+"title": " luxSmallPanel ", 
+"value": 8026.1 
+},
+{
+"id": 40 ,
+"title": " dawnMoment ", 
+"value": "21:5:17" 
+},
+{
+"id": 41 ,
+"title": " duskMoment ", 
+"value": "6:15:17"
+},
+{
+"id": 42 ,
+"title": " solarGenerated12h ", 
+"value": 174 
+},
+{
+"id": 43 ,
+"title": " waterUsage24h ", 
+"value": 100.0 
+},
+{
+"id": 44 ,
+"title": " gasUsage24h ", 
+"value": 0.902 
+},
+{
+"id": 45 ,
+"title": " averagesLast15s ", 
+"value": 16 
+},
+{
+"id": 46 ,
+"title": " unoMillis ", 
+"value": 1282658188 
+},
+{
+"id": 47 ,
+"title": " unOnTime ", 
+"value": 14.9 
+},
+{
+"id": 48 ,
+"title": " megaMillis ", 
+"value": 32097660 
+},
+{
+"id": 49 ,
+"title": " megaOnTime ", 
+"value": 0.5 
+},
+{
+"id": 50 ,
+"title": " megaLocalTime ", 
+"value": " 8:21:57" 
+}
 ]
