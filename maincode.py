@@ -75,7 +75,9 @@ for data in weatherList:
     for x in range(0,1):
         jsonDataList[x+1].append(data['value'])
 print(jsonDataList)
-
+with open("jsonDataList.txt", "w") as f:
+    for item in jsonDataList:
+        f.write("%s\n" % item)
 class Window(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)               
