@@ -1,4 +1,3 @@
-# url = 'http://192.168.178.10/?LastReading'
 import json
 import requests
 import time
@@ -22,6 +21,8 @@ for data in weatherList:
             if data['title'] not in jsonDataList[x]:
                 jsonDataList[x].append(data['title'])
 def getData():
+    if plt.fignum_exists(num=1):
+        plt.close()
     for data in oldWeatherList:
         for x in range(0,1):
             if data['value'] not in jsonDataList[x]:
@@ -36,8 +37,6 @@ def getData():
 def showData(d,Type):
     getData()
     if Type == "Graph":
-        if plt.fignum_exists(num=1):
-            plt.close()
         x = [str(jsonDataList[1][0]),str(jsonDataList[1][49])]
         y = [jsonDataList[1][d],jsonDataList[1][d+49]]
         textData = str(jsonDataList[0][d]),x,y, '\n'
@@ -46,11 +45,11 @@ def showData(d,Type):
         plt.plot(x,y)
         plt.show()
     else:
-        if plt.fignum_exists(num=1):
-            plt.close()
         textData = str(jsonDataList[0][d]), str(jsonDataList[1][d]) + '\n'
         text.insert(END,textData)
         del textData
+        print(d,Type)
+        
 
 class Window(Frame):
     def __init__(self, master=None):
@@ -169,7 +168,7 @@ class Window(Frame):
         megaOntimeButton.place(x=230,y=screeny*17)
         megaTimeButton.place(x=230,y=screeny*18)
     def client_exit(self):
-        if plt.fignum_exists(num=1):
+        if plt.figure(num=1):
             plt.close()
         exit()
 root = Tk()
