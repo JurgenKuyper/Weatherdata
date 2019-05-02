@@ -1,14 +1,9 @@
-# url = 'http://192.168.178.10/?LastReading'
-import json
-import requests
-import time
+# url = "http://192.168.178.10/?JSON"
+import json, requests, time, subprocess, os
 from datetime import datetime
 from tkinter import *
 import matplotlib.pyplot as plt
-response = requests.get("https://raw.githubusercontent.com/JurgenMK/Weatherdata/master/newData.json")
-responseOld = requests.get("https://raw.githubusercontent.com/JurgenMK/Weatherdata/master/dataTest.json")
-weatherList = json.loads(response.text)
-oldWeatherList = json.loads(responseOld.text)
+weatherList = []
 jsonDataList = [[],[]]
 master = Tk()
 screeny = 25
@@ -17,24 +12,33 @@ text = Text(master)
 Sbar = Scrollbar(master)
 Sbar.pack(side=RIGHT, fill=Y)
 text.pack(side=LEFT, fill=Y)
-for data in weatherList:
-        for x in range(0,1):
-            if data['title'] not in jsonDataList[x]:
-                jsonDataList[x].append(data['title'])
+
+def connection():
+    f= open("running.txt","w")
+    f.close()
+    try:
+        response = requests.get("http://192.168.178.10/?JSON",timeout=5)
+        with open("datastore.json", "w") as filehandle:  
+            filehandle.write(response.text)
+        os.remove("running.txt")
+    except requests.exceptions.ReadTimeout:
+        print("readtimedout")
+        connection()
+    except requests.exceptions.ConnectTimeout:
+        print("connectTimeOut")
+        connection()
+
 def getData():
-    for data in oldWeatherList:
-        for x in range(0,1):
-            if data['value'] not in jsonDataList[x]:
-                jsonDataList[x+1].append(data['value'])
     #print(time1[5])
-    for data in weatherList:
-        for x in range(0,1):
-            if data['value'] not in jsonDataList[x]:
-                jsonDataList[x+1].append(data['value'])
-    print(jsonDataList)
+    try:
+        with open("running.txt", "r") as File:
+            print(File.read())
+    except FileNotFoundError:
+        connection()
     #print(str(jsonDataList[1][1]))
+
 def showData(d,Type):
-    getData()
+    #getData()
     if Type == "Graph":
         if plt.figure(num=1):
             plt.close()
@@ -42,15 +46,37 @@ def showData(d,Type):
         y = [jsonDataList[1][d],jsonDataList[1][d+49]]
         textData = str(jsonDataList[0][d]),x,y, '\n'
         text.insert(END,textData)
-        #del textData
+        del textData
         plt.plot(x,y)
         plt.show()
     else:
         if plt.figure(num=1):
             plt.close()
         textData = str(jsonDataList[0][d]), str(jsonDataList[1][d]) + '\n'
+        print(str(textData))
         text.insert(END,textData)
-        #del textData
+        del textData
+
+try:
+    os.remove("running.txt")
+except FileNotFoundError:
+    print("done")
+getData()
+with open('datastore.json', 'r') as filehandle:  
+    weatherList = json.loads(filehandle.read())
+responseOld = requests.get("https://raw.githubusercontent.com/JurgenMK/Weatherdata/master/dataTest.json")
+oldWeatherList = json.loads(responseOld.text)
+for data in weatherList:
+    for x in range(0,1):
+        if data['title'] not in jsonDataList[x]:
+            jsonDataList[x].append(data['title'])
+for data in weatherList:
+    for x in range(0,1):
+        jsonDataList[x+1].append(data['value'])
+for data in oldWeatherList:
+    for x in range(0,1):
+        jsonDataList[x+1].append(data['value'])
+print(jsonDataList)
 
 class Window(Frame):
     def __init__(self, master=None):
