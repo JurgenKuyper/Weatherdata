@@ -1,5 +1,5 @@
 # url = "http://192.168.178.10/?JSON"
-import json, requests, time, subprocess, os
+import json, requests, time, subprocess, os, threading
 from datetime import datetime
 from tkinter import *
 import matplotlib.pyplot as plt
@@ -20,7 +20,16 @@ def connection():
         response = requests.get("http://192.168.178.10/?JSON",timeout=5)
         with open("datastore.json", "w") as filehandle:  
             filehandle.write(response.text)
+        with open('datastore.json', 'r') as filehandle:  
+            weatherList = json.loads(filehandle.read())
+        for data in weatherList:
+            if data['title'] == "DateTime" and data["value"] not in jsonDataList[1]:
+                for Data in weatherList:
+                    jsonDataList[1].append(Data['value'])
+        print(jsonDataList)
         os.remove("running.txt")
+        t = threading.Timer(15.0, getData)
+        t.start()
     except requests.exceptions.ReadTimeout:
         print("readtimedout")
         connection()
@@ -42,8 +51,12 @@ def showData(d,Type):
     if plt.fignum_exists(num=1):
             plt.close()
     if Type == "Graph":
-        x = [str(jsonDataList[1][0]),str(jsonDataList[1][49])]
-        y = [jsonDataList[1][d],jsonDataList[1][d+49]]
+        x = []
+        y = []
+        for z in range(0,int(len(jsonDataList[1])/49)):
+            x.append(str(jsonDataList[1][z*49]))
+            print(jsonDataList[1][z*49])
+            y.append(str(jsonDataList[1][d+(49*z)]))
         textData = str(jsonDataList[0][d]),x,y, '\n'
         text.insert(END,textData)
         del textData
@@ -59,23 +72,19 @@ try:
     os.remove("running.txt")
 except FileNotFoundError:
     print("done")
-getData()
-with open('datastore.json', 'r') as filehandle:  
-    weatherList = json.loads(filehandle.read())
 responseOld = requests.get("https://raw.githubusercontent.com/JurgenMK/Weatherdata/master/dataTest.json")
 oldWeatherList = json.loads(responseOld.text)
-for data in weatherList:
+for data in oldWeatherList:
     if data['title'] not in jsonDataList[0]:
         jsonDataList[0].append(data['title'])
 for data in oldWeatherList:
     jsonDataList[1].append(data['value'])
-for data in weatherList:
-    if data['title'] == "DateTime" and data["value"] not in jsonDataList[1]:
-        for Data in weatherList:
-            jsonDataList[1].append(Data['value'])
-print(jsonDataList)
 with open("jsonDataList.txt", "w") as f:
     f.write(str(jsonDataList))
+getData()
+t = threading.Timer(15.0, getData)
+t.start()
+
 class Window(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)               
