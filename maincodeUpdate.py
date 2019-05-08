@@ -31,10 +31,10 @@ def connection():
         t = threading.Timer(15.0, getData)
         t.start()
     except requests.exceptions.ReadTimeout:
-        print("readtimedout")
+        print("readtimeOut")
         connection()
-    except requests.exceptions.ConnectTimeout:
-        print("connectTimeOut")
+    except:
+        print("other exeptions")
         connection()
 
 def getData():
@@ -56,7 +56,7 @@ def showData(d,Type):
         for z in range(0,int(len(jsonDataList[1])/49)):
             x.append(str(jsonDataList[1][z*49]))
             print(jsonDataList[1][z*49])
-            y.append(str(jsonDataList[1][d+(49*z)]))
+            y.append(jsonDataList[1][d+(49*z)])
         textData = str(jsonDataList[0][d]),x,y, '\n'
         text.insert(END,textData)
         del textData
