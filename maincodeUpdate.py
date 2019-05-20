@@ -1,5 +1,5 @@
 # url = "http://192.168.178.10/?JSON"
-import json, requests, time, subprocess, os, threading
+import json, requests, time, subprocess, os, threading, pickle
 from datetime import datetime
 from tkinter import *
 import matplotlib.pyplot as plt
@@ -27,6 +27,8 @@ def connection():
                 for Data in weatherList:
                     jsonDataList[1].append(Data['value'])
         print(jsonDataList)
+        with open('listFile', 'wb') as fp:
+            pickle.dump(jsonDataList, fp)
         os.remove("running.txt")
         t = threading.Timer(15.0, getData)
         t.start()
@@ -34,7 +36,7 @@ def connection():
         print("readtimeOut")
         connection()
     except:
-        print("other exeptions")
+        print("ConnectTimeOut")
         connection()
 
 def getData():
@@ -79,8 +81,6 @@ for data in oldWeatherList:
         jsonDataList[0].append(data['title'])
 for data in oldWeatherList:
     jsonDataList[1].append(data['value'])
-with open("jsonDataList.txt", "w") as f:
-    f.write(str(jsonDataList))
 getData()
 t = threading.Timer(15.0, getData)
 t.start()
